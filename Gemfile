@@ -27,6 +27,8 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+# The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
